@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from '@/components/ui/Navbar';
 import { CartProvider } from '@/context/CartContext';
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -36,9 +37,9 @@ export default function RootLayout({
                     <div>
                       <h4 className="font-semibold mb-3">Quick Links</h4>
                       <ul className="space-y-2">
-                        <li><a href="/" className="text-gray-300 hover:text-white">Home</a></li>
-                        <li><a href="/menu" className="text-gray-300 hover:text-white">Menu</a></li>
-                        <li><a href="/cart" className="text-gray-300 hover:text-white">Cart</a></li>
+                        <li><Link href="/" className="text-gray-300 hover:text-white">Home</Link></li>
+                        <li><Link href="/menu" className="text-gray-300 hover:text-white">Menu</Link></li>
+                        <li><Link href="/cart" className="text-gray-300 hover:text-white">Cart</Link></li>
                       </ul>
                     </div>
                     <div>

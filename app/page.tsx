@@ -5,7 +5,7 @@ import { categories } from '@/data/categories';
 import { menuItems } from '@/data/menuItems';
 
 export default function Home() {
-  const featuredItems = menuItems.filter(item => item.featured);
+  // const featuredItems = menuItems.filter(item => item.featured);
 
   return (
     <main className="container mx-auto px-4">
