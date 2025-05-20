@@ -2,7 +2,7 @@ import Banner from '@/components/home/Banner';
 import CategorySection from '@/components/home/CategorySection';
 import FeaturedItems from '@/components/home/FeaturedItems';
 import { categories } from '@/data/categories';
-import { menuItems } from '@/data/menuItems';
+// import { menuItems } from '@/data/menuItems';
 
 export default function Home() {
   // const featuredItems = menuItems.filter(item => item.featured);
