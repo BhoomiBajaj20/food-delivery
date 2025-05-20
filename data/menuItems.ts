@@ -1,0 +1,155 @@
+import { MenuItem } from '@/types';
+
+export const menuItems: MenuItem[] = [
+  // Burgers
+  {
+    id: 'b1',
+    name: 'Classic Cheeseburger',
+    description: 'Juicy beef patty with melted cheese, lettuce, tomato, and our special sauce on a toasted bun',
+    price: 8.99,
+    category: 'burgers',
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'b2',
+    name: 'Bacon Deluxe',
+    description: 'Premium beef patty topped with crispy bacon, cheddar cheese, caramelized onions, and BBQ sauce',
+    price: 10.99,
+    category: 'burgers',
+    imageUrl: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?q=80&w=500',
+    featured: false,
+    popular: true,
+  },
+  {
+    id: 'b3',
+    name: 'Veggie Supreme',
+    description: 'Plant-based patty with fresh avocado, roasted peppers, alfalfa sprouts, and vegan mayo',
+    price: 9.99,
+    category: 'burgers',
+    imageUrl: 'https://images.unsplash.com/photo-1550317138-10000687a72b?q=80&w=500',
+    featured: true,
+    popular: false,
+  },
+  
+  // Pizzas
+  {
+    id: 'p1',
+    name: 'Margherita',
+    description: 'Classic pizza with tomato sauce, fresh mozzarella, basil, and extra virgin olive oil',
+    price: 12.99,
+    category: 'pizzas',
+    imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=500',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'p2',
+    name: 'Pepperoni',
+    description: 'Traditional pizza topped with tomato sauce, mozzarella cheese, and pepperoni slices',
+    price: 14.99,
+    category: 'pizzas',
+    imageUrl: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=500',
+    featured: false,
+    popular: true,
+  },
+  {
+    id: 'p3',
+    name: 'Veggie Delight',
+    description: 'Colorful medley of bell peppers, mushrooms, olives, onions, and tomatoes on a crispy crust',
+    price: 13.99,
+    category: 'pizzas',
+    imageUrl: 'https://images.unsplash.com/photo-1590947132387-155cc02f3212?q=80&w=500',
+    featured: true,
+    popular: false,
+  },
+  
+  // Salads
+  {
+    id: 's1',
+    name: 'Caesar Salad',
+    description: 'Crisp romaine lettuce, croutons, parmesan cheese, and our homemade Caesar dressing',
+    price: 7.99,
+    category: 'salads',
+    imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=500',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 's2',
+    name: 'Greek Salad',
+    description: 'Fresh cucumber, tomatoes, olives, feta cheese, and red onions with olive oil',
+    price: 8.99,
+    category: 'salads',
+    imageUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=500',
+    featured: false,
+    popular: false,
+  },
+  
+  // Drinks
+  {
+    id: 'd1',
+    name: 'Strawberry Smoothie',
+    description: 'Refreshing blend of fresh strawberries, yogurt, and a hint of honey',
+    price: 4.99,
+    category: 'drinks',
+    imageUrl: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=500',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'd2',
+    name: 'Iced Coffee',
+    description: 'Cold-brewed coffee served over ice with your choice of milk and sweetener',
+    price: 3.99,
+    category: 'drinks',
+    imageUrl: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=500',
+    featured: false,
+    popular: true,
+  },
+  
+  // Desserts
+  {
+    id: 'de1',
+    name: 'Chocolate Brownie',
+    description: 'Rich and fudgy brownie with chocolate chunks, served with vanilla ice cream',
+    price: 6.99,
+    category: 'desserts',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=500',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'de2',
+    name: 'New York Cheesecake',
+    description: 'Creamy classic cheesecake with a graham cracker crust and berry topping',
+    price: 7.99,
+    category: 'desserts',
+    imageUrl: 'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=500',
+    featured: false,
+    popular: false,
+  },
+  
+  // Sides
+  {
+    id: 'si1',
+    name: 'Crispy Fries',
+    description: 'Golden, crispy french fries seasoned to perfection',
+    price: 3.99,
+    category: 'sides',
+    imageUrl: 'https://images.unsplash.com/photo-1548940740-204726a19be3?q=80&w=500',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'si2',
+    name: 'Onion Rings',
+    description: 'Beer-battered onion rings, fried to a golden crisp',
+    price: 4.99,
+    category: 'sides',
+    imageUrl: 'https://images.unsplash.com/photo-1639024471283-03518883512d?q=80&w=500',
+    featured: false,
+    popular: false,
+  }
+];
